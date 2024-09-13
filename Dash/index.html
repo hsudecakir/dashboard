@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://kit.fontawesome.com/3ed2e8cef0.js" crossorigin="anonymous"></script>
+  <title>Dash</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="sidebar">
+      <div class="logo">
+        <a href="index.html"><img src="assets/images/dash.svg" alt="Dash Logo"></a>
+      </div>
+      <nav class="sidebar-nav">
+        <h3>TASKS</h3>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-regular fa-calendar"></i>Calendar</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-regular fa-envelope"></i>Messages</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-gift"></i>Offers</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-regular fa-user"></i>Users</a>
+          </li>
+        </ul>
+        <h3>USER</h3>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-arrow-trend-up"></i>Trends</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-cloud-arrow-down"></i>Downloads</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="sign-out">
+        <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>Sign Out</a>
+      </div>
+    </div>
+    <div class="dashboard">
+      <header class="header">
+        <div class="header-title">
+          <h1> <span class="header-title-icon"><i class="fa-solid fa-angles-left"></i></span>Dashboard</h1>
+        </div>
+        <nav class="header-nav">
+          <ul>
+            <li class="notification">
+              <a href="#"><i class="fa-regular fa-bell"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-gear"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </li>
+            <li class="header-nav-avatar busy">
+              <a href="#"><img src="assets/images/Avatar.svg" alt="Avatar"></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <div class="content-item analytics">
+          <div class="title">
+            <p>Analytics</p>
+            <a href="#"><p>This Week<i class="fa-solid fa-caret-down"></i></p></a>
+          </div>
+          <div class="analytics-graph">
+            <img src="assets/images/analytics-graph.png" alt="Graph">
+          </div>
+          <div class="analytics-graph-info">
+            <p><span class="yellowbox"></span>Legend</p>
+            <p><span class="bluebox"></span>Legend</p>
+          </div>
+        </div>
+        <div class="content-item refferals">
+          <div class="title">
+            <p>Refferals</p>
+            <a href="#">Today<i class="fa-solid fa-angle-down"></i></a>
+          </div>
+          <div class="chart-image">
+            <img src="assets/images/refferals-chart.svg" alt="Chart">
+          </div>
+          <div class="chart-info">
+            <p><span class="light-blue"></span>Direct</p>
+            <p><span class="blue"></span>Refferals</p>
+            <p><span class="dark-blue"></span>Social</p>
+          </div>
+        </div>
+        <div class="content-item friends">
+          <div class="title">
+            <p>Friends</p>
+          </div>
+            <div class="friends-list-item">
+              <div class="friends-profile-picture busy">
+                <img src="assets/images/gopichandpp.svg" alt="Friend Profile Picture">
+              </div>
+              <div class="friends-list-item-info">
+                <p>Gopichand Sana</p>
+                <p>UX Researcher</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <div class="friends-list-item">
+              <img src="assets/images/yipp.svg" alt="Friend Profile Picture">
+              <div class="friends-list-item-info">
+                <p>Yi Hanying</p>
+                <p>UX Researcher</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <div class="friends-list-item">
+              <img src="assets/images/dusyapp.svg" alt="Friend Profile Picture">
+              <div class="friends-list-item-info">
+                <p>Dusya Sigachyova</p>
+                <p>UX Researcher</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <div class="friends-list-item">
+              <img src="assets/images/awaatifpp.svg" alt="Friend Profile Picture">
+              <div class="friends-list-item-info">
+                <p>Awaatif Al Sadek</p>
+                <p>UX Researcher</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <div class="friends-list-item">
+              <img src="assets/images/wimpp.svg" alt="Friend Profile Picture">
+              <div class="friends-list-item-info">
+                <p>Wim Willems</p>
+                <p>UX Researcher</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </div>
+        <div class="content-item tasks">
+          <div class="tasks-title">
+            <p>Tasks</p>
+            <a href="#">Today<i class="fa-solid fa-angle-down"></i></a>
+          </div>
+          <div class="tasks-checkbox">
+            <label class="tasks-checkbox-content">
+              <input type="checkbox" checked>
+              <span class="checkmark"></span>
+              Work on new kit style guide and intro
+            </label>
+            <label class="tasks-checkbox-content">
+              <input type="checkbox" checked>
+              <span class="checkmark"></span>
+              Figma design system
+            </label>
+            <label class="tasks-checkbox-content">
+              <input type="checkbox" checked>
+              <span class="checkmark"></span>
+              Showcase and newsletter
+            </label>
+            <label class="tasks-checkbox-content">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              Showcase and newsletter
+            </label>
+            <label class="tasks-checkbox-content">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              Have a break!
+            </label>
+          </div>
+          <div class="tasks-input">
+            <input type="text" placeholder="Add new item...">
+            <a href="#">Today</a>
+          </div>
+        </div>
+        <div class="content-item rank">
+          <div class="info-text">
+            <p>Rank</p>
+            <p>Beginner</p>
+          </div>
+          <div class="rank-avatar busy">
+            <img src="assets/images/avatar.svg" alt="Avatar">
+          </div>
+        </div>
+        <div class="content-item week">
+          <div class="info-text">
+            <p>This Week</p>
+            <p>Progress</p>
+          </div>
+          <img src="assets/images/graph.svg" alt="Graph">
+        </div>
+        <div class="content-item month">
+          <div class="info-text">
+            <p>This Week</p>
+            <p>Progress</p>
+          </div>
+          <i class="fa-solid fa-gift"></i>
+        </div>
+        <div class="content-item revenue">
+          <div class="info-text">
+            <p>Revenue</p>
+            <p>$129,850</p>
+          </div>
+          <a href="#"><i class="fa-solid fa-angle-up"></i>15%</a>
+        </div>
+        <div class="content-item activity">
+          <div class="title">
+            <p>Activity</p>
+            <a href="#">
+              <p>This week<i class="fa-solid fa-caret-down"></i></p>
+            </a>
+          </div>
+          <div class="friends-activity busy">
+            <img src="assets/images/friend1.svg" alt="Profile Picture">
+            <div class="friends-activity-info">
+              <p>Amarachi Nkechi</p>
+              <p>Uploaded Team.zip file on shared cloud</p>
+            </div>
+            <p>Just now</p>
+          </div>
+          <div class="friends-activity busy">
+            <img src="assets/images/friend2.svg" alt="Profile Picture">
+            <div class="friends-activity-info">
+              <p>Amarachi Nkechi</p>
+              <p>Uploaded Team.zip file on shared cloud</p>
+            </div>
+            <p>12 min ago</p>
+          </div>
+          <div class="friends-activity busy">
+            <img src="assets/images/friend3.svg" alt="Profile Picture">
+            <div class="friends-activity-info">
+              <p>Amarachi Nkechi</p>
+              <p>Uploaded Team.zip file on shared cloud</p>
+            </div>
+            <p>Yesterday</p>
+          </div>
+          <div class="friends-activity busy">
+            <img src="assets/images/friend4.svg" alt="Profile Picture">
+            <div class="friends-activity-info">
+              <p>Amarachi Nkechi</p>
+              <p>Uploaded Team.zip file on shared cloud</p>
+            </div>
+            <p>1 week ago</p>
+          </div>
+        </div>
+        <div class="content-item banner">
+          <div class="banner-content">
+            <h6>Become a pro</h6>
+            <h3>Feeling lost? chat with support</h3>
+            <a href="#">Get started</a>
+          </div>
+          <img src="assets/images/banner.svg" alt="Illustration">
+        </div>
+      </section>
+      <footer class="footer">
+        <p>© 2021 Fabrx UI</p>
+        <div class="footer-nav">
+          <a href="#">Services</a>
+          <a href="#">Features</a>
+          <a href="#">About</a>
+          <a href="#">Privacy</a>
+          <a href="#">Contact</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
